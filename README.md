@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my_first_vscode_pico - Raspberry Pi Pico Project
 
 ## Building
@@ -19,3 +20,7 @@ make -j4
 ```bash
 picocom -b 115200 /dev/ttyACM0
 ```
+=======
+# Pico_Project-
+my pico project for a remote 
+>>>>>>> origin/main
