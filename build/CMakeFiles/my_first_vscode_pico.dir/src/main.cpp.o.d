@@ -62,7 +62,40 @@ CMakeFiles/my_first_vscode_pico.dir/src/main.cpp.o: \
  /home/vboxuser/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/vboxuser/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /usr/include/newlib/stdio.h /usr/include/newlib/sys/reent.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
- /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h \
- /usr/include/newlib/sys/stdio.h
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/tusb.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+ /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/string.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h /usr/include/newlib/stdio.h \
+ /usr/include/newlib/sys/stdio.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+ /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+ /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+ /home/vboxuser/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+ /home/vboxuser/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /home/vboxuser/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+ /home/vboxuser/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h \
+ /home/vboxuser/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h

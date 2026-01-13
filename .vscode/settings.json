@@ -1,15 +1,36 @@
+// {
+//     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+//     "cmake.configureOnOpen": true,
+//     "cmake.buildDirectory": "${workspaceFolder}/build",
+//     "cmake.generator": "Unix Makefiles",
+//     "files.associations": {
+//         "*.h": "c",
+//         "pico.h": "c",
+//         "pico/stdlib.h": "c",
+//         "hardware/gpio.h": "c"
+//     },
+//     "terminal.integrated.env.linux": {
+//         "PICO_SDK_PATH": "/home/vboxuser/pico/pico-sdk"
+//     }
+// }
+
 {
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "cmake.configureOnOpen": true,
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.generator": "Unix Makefiles",
+    "cmake.environment": {
+        "PICO_SDK_PATH": "/home/vboxuser/pico/pico-sdk"
+    },
     "files.associations": {
         "*.h": "c",
         "pico.h": "c",
         "pico/stdlib.h": "c",
-        "hardware/gpio.h": "c"
-    },
-    "terminal.integrated.env.linux": {
-        "PICO_SDK_PATH": "/home/vboxuser/pico/pico-sdk"
+        "hardware/gpio.h": "c",
+        "tusb.h": "c",
+        "usbd.h": "c",
+        "hid_device.h": "c",
+        "device/usbd.h": "c",
+        "class/hid/hid_device.h": "c"
     }
 }

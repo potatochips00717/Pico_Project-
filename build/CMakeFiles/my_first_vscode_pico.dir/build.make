@@ -216,11 +216,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/h
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c.o: /home/vboxuser/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -523,11 +523,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/h
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -592,11 +592,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
@@ -605,11 +605,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
@@ -618,11 +618,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
@@ -659,11 +659,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -672,11 +672,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
@@ -685,11 +685,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
@@ -726,11 +726,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
@@ -753,11 +753,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
@@ -822,11 +822,11 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s
 
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
 CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
@@ -1206,6 +1206,34 @@ CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/my_first_vscode_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/my_first_vscode_pico.dir/flags.make
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/my_first_vscode_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
 # Object files for target my_first_vscode_pico
 my_first_vscode_pico_OBJECTS = \
 "CMakeFiles/my_first_vscode_pico.dir/src/main.cpp.o" \
@@ -1289,7 +1317,9 @@ my_first_vscode_pico_OBJECTS = \
 "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
 "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
-"CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+"CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
+"CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 
 # External object files for target my_first_vscode_pico
 my_first_vscode_pico_EXTERNAL_OBJECTS =
@@ -1376,11 +1406,13 @@ my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico
 my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
 my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/build.make
 my_first_vscode_pico.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 my_first_vscode_pico.elf: /home/vboxuser/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 my_first_vscode_pico.elf: CMakeFiles/my_first_vscode_pico.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable my_first_vscode_pico.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX executable my_first_vscode_pico.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_first_vscode_pico.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/my_first_vscode_pico.elf > my_first_vscode_pico.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/my_first_vscode_pico.elf >> my_first_vscode_pico.dis

@@ -1,3 +1,28 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Pico",
+//             "includePath": [
+//                 "${workspaceFolder}/**",
+//                 "${workspaceFolder}/include",
+//                 "${workspaceFolder}/src",
+//                 "/home/vboxuser/pico/pico-sdk/**",
+//                 "/home/vboxuser/pico_workspace/pico-sdk/**"
+//             ],
+//             "defines": [
+//                 "PICO_BOARD=\"pico\"",
+//                 "LIB_PICO_STDIO_USB=1",
+//                 "LIB_PICO_STDIO_UART=0"
+//             ],
+//             "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+//             "cStandard": "gnu11",
+//             "cppStandard": "gnu++17",
+//             "intelliSenseMode": "linux-gcc-arm"
+//         }
+//     ],
+//     "version": 4
+// }
+
 {
     "configurations": [
         {
@@ -7,17 +32,26 @@
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/src",
                 "/home/vboxuser/pico/pico-sdk/**",
-                "/home/vboxuser/pico_workspace/pico-sdk/**"
+                "/home/vboxuser/pico/pico-sdk/src/common/pico_base/include",
+                "/home/vboxuser/pico/pico-sdk/src/common/pico_stdlib/include",
+                "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/include",
+                "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/include",
+                "/home/vboxuser/pico/pico-sdk/lib/tinyusb/src",
+                "/home/vboxuser/pico/pico-sdk/lib/tinyusb/hw",
+                "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
             ],
             "defines": [
                 "PICO_BOARD=\"pico\"",
+                "PICO_TARGET_NAME=\"${workspaceFolderBasename}\"",
+                "PICO_TINYUSB_DEVICE=1",
                 "LIB_PICO_STDIO_USB=1",
                 "LIB_PICO_STDIO_UART=0"
             ],
             "compilerPath": "/usr/bin/arm-none-eabi-gcc",
             "cStandard": "gnu11",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-arm"
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

@@ -130,32 +130,6 @@ my_first_vscode_pico/fast:
 .PHONY : my_first_vscode_pico/fast
 
 #=============================================================================
-# Target rules for targets named picotoolForceReconfigure
-
-# Build rule for target.
-picotoolForceReconfigure: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
-.PHONY : picotoolForceReconfigure
-
-# fast build rule for target.
-picotoolForceReconfigure/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolForceReconfigure.dir/build.make CMakeFiles/picotoolForceReconfigure.dir/build
-.PHONY : picotoolForceReconfigure/fast
-
-#=============================================================================
-# Target rules for targets named picotoolBuild
-
-# Build rule for target.
-picotoolBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
-.PHONY : picotoolBuild
-
-# fast build rule for target.
-picotoolBuild/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolBuild.dir/build.make CMakeFiles/picotoolBuild.dir/build
-.PHONY : picotoolBuild/fast
-
-#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -985,6 +959,30 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
+
+# target to build an object file
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
 
@@ -1064,6 +1062,30 @@ home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: hom
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o
+
+# target to build an object file
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_vscode_pico.dir/build.make CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
@@ -2036,8 +2058,6 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
-	@echo "... picotoolBuild"
-	@echo "... picotoolForceReconfigure"
 	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
@@ -2136,6 +2156,9 @@ help:
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
+	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -2146,6 +2169,9 @@ help:
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o"
+	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"

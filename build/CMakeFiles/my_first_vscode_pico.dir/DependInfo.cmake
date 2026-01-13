@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
@@ -59,6 +60,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_STANDARD_BINARY_INFO=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
+  "LIB_PICO_STDIO_UART=0"
   "LIB_PICO_STDIO_USB=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
@@ -75,21 +77,31 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
+  "PICO_DEFAULT_UART=0"
+  "PICO_DEFAULT_UART_RX_PIN=1"
+  "PICO_DEFAULT_UART_TX_PIN=0"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
   "PICO_RP2040=1"
   "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
   "PICO_TARGET_NAME=\"my_first_vscode_pico\""
+  "PICO_TINYUSB_DEVICE=1"
+  "PICO_TINYUSB_HOST=0"
   "PICO_USE_BLOCKED_RAM=0"
   )
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_atomic/include"
+  "/home/vboxuser/pico/pico-sdk/src/common/pico_base/include"
+  "/home/vboxuser/pico/pico-sdk/src/common/pico_stdlib/include"
   "/home/vboxuser/pico/pico-sdk/lib/tinyusb/src"
-  "/home/vboxuser/pico/pico-sdk/src/common/pico_stdlib_headers/include"
+  "/home/vboxuser/pico/pico-sdk/lib/tinyusb/hw"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_atomic/include"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/home/vboxuser/pico/pico-sdk/src/common/pico_stdlib_headers/include"
   "/home/vboxuser/pico/pico-sdk/src/common/pico_base_headers/include"
   "generated/pico_base"
   "/home/vboxuser/pico/pico-sdk/src/boards/include"
@@ -133,8 +145,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/vboxuser/pico/pico-sdk/src/common/pico_binary_info/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_printf/include"
-  "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_xip_cache/include"
@@ -145,6 +155,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2040/boot_stage2/include"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/include"
   )
 
 # The set of dependency files which are needed:
@@ -180,9 +192,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/vboxuser/pico/pico-sdk/src/rp2040/pico_platform/platform.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d"
+  "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d"
   "/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" "gcc" "CMakeFiles/my_first_vscode_pico.dir/home/vboxuser/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d"
