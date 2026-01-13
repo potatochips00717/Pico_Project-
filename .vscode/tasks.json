@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Project",
+            "type": "shell",
+            "command": "mkdir -p build && cd build && cmake .. && make -j4",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Build the Pico project"
+        },
+        {
+            "label": "Clean Build",
+            "type": "shell",
+            "command": "rm -rf build && mkdir build && cd build && cmake .. && make -j4",
+            "group": "build"
+        },
+        {
+            "label": "Flash to Pico",
+            "type": "shell",
+            "command": "cp",
+            "args": [
+                "${workspaceFolder}/build/${workspaceFolderBasename}.uf2",
+                "/media/vboxuser/RPI-RP2/"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Monitor Serial",
+            "type": "shell",
+            "command": "picocom",
+            "args": ["-b", "115200", "/dev/ttyACM0"],
+            "group": "test"
+        }
+    ]
+}

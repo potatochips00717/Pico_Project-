@@ -1,0 +1,15 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "Unix Makefiles",
+    "files.associations": {
+        "*.h": "c",
+        "pico.h": "c",
+        "pico/stdlib.h": "c",
+        "hardware/gpio.h": "c"
+    },
+    "terminal.integrated.env.linux": {
+        "PICO_SDK_PATH": "/home/vboxuser/pico/pico-sdk"
+    }
+}

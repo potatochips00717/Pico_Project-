@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles/picotoolBuild
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles/picotoolBuild.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/CMakeFiles/picotoolBuild-complete.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

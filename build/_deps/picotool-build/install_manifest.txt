@@ -1,0 +1,7 @@
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/picotool
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/picotoolTargets.cmake
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/picotoolTargets-release.cmake
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/picotoolConfig.cmake
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/picotoolConfigVersion.cmake
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/enc_bootloader.elf
+/home/vboxuser/pico_workspace/projects/my_first_vscode_pico/build/_deps/picotool/enc_bootloader_mbedtls.elf

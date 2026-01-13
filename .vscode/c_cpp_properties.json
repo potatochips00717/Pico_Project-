@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "/home/vboxuser/pico/pico-sdk/**",
+                "/home/vboxuser/pico_workspace/pico-sdk/**"
+            ],
+            "defines": [
+                "PICO_BOARD=\"pico\"",
+                "LIB_PICO_STDIO_USB=1",
+                "LIB_PICO_STDIO_UART=0"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
