@@ -6,15 +6,10 @@
 #include <stdio.h>
 #include <hardware/gpio.h>
 
-// #define faceButton1 0
-// #define faceButton2 1
-// #define faceButton3 2
-// #define faceButton4 3
-// #define faceButton5 4
-// #define faceButton6 5
-// #define faceButton7 6
-// #define faceButton8 7
 
+
+
+#define kbr 0x01
 const uint faceButtons[]={0,1,2,3,4,5,6,7};
 //if the orgional keys wante to be used, mostly u,j,i,k,o,l,p, and ; (yes, the semi-colin key)
 const uint8_t faceKeys[]=
@@ -29,10 +24,7 @@ const uint8_t faceKeys[]=
     HID_KEY_SEMICOLON
 };
 
-// #define up 8
-// #define down 9
-// #define left 10
-// #define right 11
+
 
 const uint directions[]={8,9,10,11};
 const uint8_t directionKeys[]=
@@ -43,13 +35,6 @@ const uint8_t directionKeys[]=
     HID_KEY_D
 };
 //basic up down left and right 
-
-// #define extraButton1 12
-// #define extraButton2 13
-// #define extraButton3 14
-// #define extraButton4 15
-// #define extraButton5 16
-
 const uint extraButtons[]={12,13,14,15,16};
 const uint8_t extraKeys[]=
 {
@@ -69,17 +54,38 @@ int main()
 {
     stdio_init_all();
     set_buttons();
-
-    if (gpio_get(faceButtons[0]==0))
+    while(true)
     {
-       //attack 1  
+        for (int i=0;i<8;i++)
+        {
+            if (faceButtons[i]==0)
+            {
+                key_sendy(faceKeys[i]);
+            }
+        }
+        for (int i=0;i<4;i++)
+        {
+            if (directions[i]==0)
+            {
+                key_sendy(directionKeys[i]);
+            }
+        }
+
+        for (int i=0;i<5;i++)
+        {
+            if (extraButtons[i]==0)
+            {
+                key_sendy(extraKeys[i]);
+            }
+        }
+        sleep_ms(10);
     }
-
-
 
     return 0;
 }
 
+
+// creates the buttons to be used later 
 void set_buttons()
 {
     for(int i=0;i<(sizeof(faceButtons)/faceButtons[0]);i++) 
@@ -87,6 +93,7 @@ void set_buttons()
         gpio_init(faceButtons[i]);
         gpio_set_dir(faceButtons[i], GPIO_IN);
     }
+
     for(int i=0;i<(sizeof(directions)/directions[0]);i++) 
     {
         gpio_init(directions[i]);
@@ -104,7 +111,6 @@ void key_sendy(uint8_t keyP)
     if (tud_hid_ready())
     {
         uint8_t keyReader[]={keyP,0,0,0,0,0};
-//        tud_hid_keyboard_report(, 0, keyReader);
+        tud_hid_keyboard_report(kbr, 0, keyReader);
     }
-
 }
